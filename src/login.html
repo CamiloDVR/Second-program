@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/components/login.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="usuario">
+            <label for="usuario">Ingrese su usuario</label>
+            <input id="usuario" type="text">
+        </div>
+        <div class="password">
+            <label for="password">Ingrese su contraseña</label>
+            <input id="password" type="password" required>
+        </div>
+        <button onclick="logged()">Log In</button>
+
+        
+    </div>
+    <script>
+            function logged(){
+                alert("You have suscessfully logged");
+            }
+    </script>
+</body>
+</html>
